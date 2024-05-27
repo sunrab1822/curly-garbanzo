@@ -1,0 +1,16 @@
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\obj\Debug\net6.0\Friends_Console.GeneratedMSBuildEditorConfig.editorconfig
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\obj\Debug\net6.0\Friends_Console.AssemblyInfoInputs.cache
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\obj\Debug\net6.0\Friends_Console.AssemblyInfo.cs
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\obj\Debug\net6.0\Friends_Console.csproj.CoreCompileInputs.cache
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\bin\Debug\net6.0\Friends_Console.exe
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\bin\Debug\net6.0\episodes.json
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\bin\Debug\net6.0\seasons.json
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\bin\Debug\net6.0\Friends_Console.deps.json
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\bin\Debug\net6.0\Friends_Console.runtimeconfig.json
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\bin\Debug\net6.0\Friends_Console.dll
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\bin\Debug\net6.0\Friends_Console.pdb
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\obj\Debug\net6.0\Friends_Console.dll
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\obj\Debug\net6.0\refint\Friends_Console.dll
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\obj\Debug\net6.0\Friends_Console.pdb
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\obj\Debug\net6.0\Friends_Console.genruntimeconfig.cache
+D:\WB\WeiszBarnabas\Friends_Console\Friends_Console\obj\Debug\net6.0\ref\Friends_Console.dll

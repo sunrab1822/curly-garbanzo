@@ -1,0 +1,42 @@
+header {
+  background-color: white;
+  padding-bottom: 1px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#cards {
+  margin: 200px auto;
+}
+
+#filter {
+  width: 40%;
+  margin: auto;
+}
+
+.biglogo {
+  height: 30vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.felirat {
+  position: absolute;
+  font-size: calc(26px + (100vh - 768px) / 32);
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

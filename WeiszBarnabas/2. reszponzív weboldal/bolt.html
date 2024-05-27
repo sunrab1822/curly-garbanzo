@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hu" data-bs-theme="dark">
+
+<head>
+    <!-- Meta elemek -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Frijole&display=swap" rel="stylesheet">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Bolt</title>
+</head>
+
+<body>
+    <!-- Navigáció -->
+    <nav class="navbar navbar-expand-md p-0">
+        <a class="navbar-brand" href="index.html">Downhill 2023</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav nav-underline ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="helyszinek.html">Helyszínek</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ranglista.html">Ranglista</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="csapatok.html">Csapatok</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bolt.html">Bolt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bolt -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="px-5 py-2">
+                    <h1 class="text-center felirat display-6">Csúcskategóriás downhill bicajok</h1>
+                    <form>
+                        <div class="mb-3 h4">
+                            <select id="mySelect" class="form-select form-select-lg mb-3" aria-label="My bike" onchange="selectBike()">
+                                <option selected>Válassz magadnak bicajt!</option>
+                                <option>Pivot Firebird Phoenix</option>
+                                <option>Santa Cruz V10</option>
+                                <option>Propain Rage CF</option>
+                                <option>Giant Glory Advanced</option>
+                                <option>Commencal Supreme</option>
+                                <option>Trek Session</option>
+                                <option>Specialized Demo</option>
+                                <option>Nukeproof Dissent Carbon</option>
+                                <option>Canyon Sender CFR</option>
+                              </select>
+                              <div id="selectedBike"><img src="kepek/Bicajok/question.png" class="card-img-top"></div>
+                        </div>
+                        <button type="button" class="btn btn-danger" onclick="megveszem()">Megveszem</button>
+                        <p id="ar" class="text-center">Az ára: ?</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lábléc -->
+    <footer>
+        <div class="text-center">
+            <hr>
+            <small>
+                <img src="kepek/Jedlik_logo.webp" class="kiskep" alt="Jedlik">
+                Győri SZC Jedlik Ányos Gépipari és Informatikai Technikum és Kollégium<br>
+                9021 Győr, Szent István út 7. <br>
+                OM kód: 203037/003 <br>
+                Email: <a href="mailto:jedlik@jedlik.eu">jedlik@jedlik.eu</a>
+            </small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+        <script src="bolt.js"></script>
+
+
+</body>
+
+</html>

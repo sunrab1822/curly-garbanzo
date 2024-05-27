@@ -1,0 +1,44 @@
+html,
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: calc(18px + 8 * (100vw - 768px) / (1440 - 768));
+}
+
+nav{
+  font-family: 'Faster One', cursive;
+  background-color: rgb(18, 40, 40);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+h2 {
+  font-family: 'Faster One', cursive;
+  font-size: calc(24px + 12 * (100vw - 768px) / (1440 - 768));
+  font-weight: 300;
+  text-align: center;
+}
+
+#selectedBike{
+  width: 50%;
+  margin: auto;
+}
+
+.felirat {
+  letter-spacing: 0.6vw;
+  font-family: "Frijole", cursive;
+}
+
+.kiskep{
+  width: 8vw;
+  margin-right: 2vw;
+  border-radius: 0.5vw;
+}
+
+
+th{
+  font-style: italic;
+}
+
+.card-img-top:hover {
+  border: 5px solid red;
+}

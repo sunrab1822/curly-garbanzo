@@ -1,0 +1,5 @@
+{
+  "/friends": "/friends?_expand=season",
+  "/api/friends": "/friends?_expand=season",
+  "/api/*": "/$1"
+}

@@ -1,0 +1,4 @@
+/api/friends?name_like=where&_page=1&_limit=15&_expand=season
+
+Böngészőben tesztelhető URL:
+http://localhost:3000/api/friends?name_like=where&_page=1&_limit=15&_expand=season 

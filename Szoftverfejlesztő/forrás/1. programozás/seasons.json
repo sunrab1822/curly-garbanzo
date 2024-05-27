@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "season": "first",
+        "years": "1994-1995"
+    },
+    {
+        "id": 2,
+        "season": "second",
+        "years": "1995-1996"
+    },
+    {
+        "id": 3,
+        "season": "third",
+        "years": "1996-1997"
+    },
+    {
+        "id": 4,
+        "season": "fourth",
+        "years": "1997-1998"
+    },
+    {
+        "id": 5,
+        "season": "fifth",
+        "years": "1998-1999"
+    }
+]

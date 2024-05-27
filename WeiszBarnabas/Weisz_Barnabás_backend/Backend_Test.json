@@ -1,0 +1,52 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Backend_Test",
+    "collectionId": "9ab9ed7e-c1b1-4a4e-8751-0b94a4ca99ab",
+    "dateExported": "2024-05-27T09:40:52.527Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "555bdcaf-8fbc-4165-aaa7-f2aa9904449e",
+            "colId": "9ab9ed7e-c1b1-4a4e-8751-0b94a4ca99ab",
+            "containerId": "",
+            "name": "GetEpisodes",
+            "url": "localhost:3000/api/search-by-season/fourth",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-27T09:38:21.188Z",
+            "modified": "2024-05-27T09:38:30.512Z",
+            "headers": []
+        },
+        {
+            "_id": "e932d7c9-32f8-4243-bfd1-2fc9b58ccdaf",
+            "colId": "9ab9ed7e-c1b1-4a4e-8751-0b94a4ca99ab",
+            "containerId": "",
+            "name": "PsotSeason",
+            "url": "localhost:3000/api/add-season",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-27T09:38:42.861Z",
+            "modified": "2024-05-27T09:39:22.967Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"_id\":11,\n \"season\":\"eleven\",\n \"years\": \"2023-2024\"\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "4bd9a313-ce4c-40f8-8fb1-ae9a9503912b",
+            "colId": "9ab9ed7e-c1b1-4a4e-8751-0b94a4ca99ab",
+            "containerId": "",
+            "name": "DelSeason",
+            "url": "localhost:3000/api/delete-season/11",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-05-27T09:39:27.286Z",
+            "modified": "2024-05-27T09:40:37.305Z",
+            "headers": []
+        }
+    ],
+    "ref": "iv30Br5wSm-V0OSCDQ-qz-GtLf-8QYrvJQOziWf4Hx9ElWrPrDbuu3gtuNjfEZ96BqIyauKmKcwt_6abHkcM8Q"
+}

@@ -1,0 +1,43 @@
+﻿<Window x:Class="Friends_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Friends_GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label Content="Season:"/>
+            <ComboBox Name="seasons_CBX" VerticalContentAlignment="Center" Width="230" SelectedIndex="0" SelectedItem="{Binding SelectedSeason, Mode=OneWayToSource}" ItemsSource="{Binding seasons}" DisplayMemberPath="season" SelectionChanged="seasons_CBX_SelectionChanged"/>
+        </StackPanel>
+
+
+        <DataGrid IsReadOnly="True" Grid.Row="1" AutoGenerateColumns="False" SelectedItem="{Binding SelectedEpisode, Mode=OneWayToSource}" ItemsSource="{Binding ShowedEpisodes}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Width="*" Binding="{Binding id}"/>
+                <DataGridTextColumn Header="Title" Width="3*" Binding="{Binding name}"/>
+                <DataGridTextColumn Header="Season" Width="*" Binding="{Binding seasonId}"/>
+                <DataGridTextColumn Header="Number" Width="*" Binding="{Binding number}"/>
+                <DataGridTextColumn Header="AirTime" Width="2*" Binding="{Binding airstamp}"/>
+                <DataGridTextColumn Header="Runtime" Width="*" Binding="{Binding runtime}"/>
+            </DataGrid.Columns>
+            
+        </DataGrid>
+            <StackPanel Orientation="Horizontal" Grid.Row="2">
+                <StackPanel>
+                    <Image Margin="10" Source="{Binding SelectedEpisode.img}" Width="170"/>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center">
+                    <Label Content="{Binding SelectedEpisode.name}" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+                    <TextBlock Name="summary" Text="{Binding SelectedEpisode.summary}" />
+                </StackPanel>
+            </StackPanel>
+    </Grid>
+</Window>
